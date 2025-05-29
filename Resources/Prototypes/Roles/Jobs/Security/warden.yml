@@ -36,7 +36,8 @@
   equipment:
     eyes: ClothingEyesGlassesSecurity
     id: WardenPDA
-    ears: ClothingHeadsetSecurity
+    ears: ClothingHeadsetAltSecurity # Corvax-Next-WardenHeadset
+    pocket1: WeaponPistolMk58
   storage:
     back:
     - Flash
