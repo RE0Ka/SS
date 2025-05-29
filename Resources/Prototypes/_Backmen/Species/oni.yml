@@ -1,15 +1,19 @@
 - type: species
-  id: Felinid
-  name: Фелинид
+  id: Oni
+  name: Они
   roundStart: true
-  prototype: MobFelinid
+  prototype: MobOni
+  dollPrototype: MobOniDummy
+  markingLimits: MobOniMarkingLimits
   sprites: MobHumanSprites
-  markingLimits: MobFelinidMarkingLimits
-  dollPrototype: MobFelinidDummy
-  skinColoration: HumanToned
+  skinColoration: Hues
+  maleFirstNames: NamesOniMale
+  femaleFirstNames: NamesOniFemale
+  maleLastNames: NamesOniLocation
+  femaleLastNames: NamesOniLocation
 
 - type: markingPoints
-  id: MobFelinidMarkingLimits
+  id: MobOniMarkingLimits
   points:
     Hair:
       points: 1
@@ -17,14 +21,10 @@
     FacialHair:
       points: 1
       required: false
-    Tail:
-      points: 1
-      required: true
-      defaultMarkings: [ FelinidTailBasic ]
     HeadTop:
       points: 1
       required: true
-      defaultMarkings: [ FelinidEarsBasic ]
+      defaultMarkings: [ OniHornSingleCurved ]
     Chest:
       points: 1
       required: false
